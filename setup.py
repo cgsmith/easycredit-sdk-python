@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
-    name='EasyPayClient',
+    name='EasyCreditClient',
     version=__version__,
     description='A easyCredit Python SDK',
     long_description=readme,
@@ -14,8 +14,8 @@ setup(
     license='MIT',
     author='Chris Smith',
     author_email='cgsmith105@gmail.com',
-    packages=['easyCredit'],
-    keywords=['easyCredit', 'Credit', 'Ratenkauf', 'Payments', 'Python', 'API', 'SDK'],
+    packages=['EasyCredit'],
+    keywords=['EasyCredit', 'Credit', 'Ratenkauf', 'Payments', 'Python', 'API', 'SDK'],
     install_requires=['requests >= 2.28.1'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
