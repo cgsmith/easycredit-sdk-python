@@ -36,7 +36,7 @@ pip install EasyCreditClient
 
 ## Configuration
 
-You will need to generate the API crednetials from the [easyCredit Partner Portal](partner.easycredit-ratenkauf.de).
+You will need to generate the API crednetials from the [easyCredit Partner Portal](https://partner.easycredit-ratenkauf.de).
 
 ```python
 from easy_credit import Client
